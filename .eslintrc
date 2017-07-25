@@ -1,0 +1,16 @@
+{
+  globals: {
+    // Google Apps Script
+    PropertiesService: true,
+    UrlFetchApp: true,
+
+    // Test Library
+    GasTap: true,
+
+    // Our classes
+
+    // test function
+    testRunner: true,
+  },
+  extends: 'airbnb-es5',
+}
