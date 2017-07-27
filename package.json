@@ -5,6 +5,12 @@
     "eslint": "^4.2.0",
     "eslint-config-airbnb-es5": "^1.2.0",
     "eslint-plugin-react": "^7.1.0",
-    "node-google-apps-script": "^1.1.5"
+    "fs": "^0.0.1-security",
+    "gas-webpack-plugin": "^0.2.0",
+    "jsdom": "^11.1.0",
+    "net": "^1.0.2",
+    "node-google-apps-script": "^1.1.5",
+    "tls": "^0.0.1",
+    "webpack": "^3.4.1"
   }
 }
