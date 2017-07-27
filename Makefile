@@ -24,7 +24,7 @@ check: check-lint
 
 .PHONY: check-lint
 check-lint:
-	$(NODE_BIN_DIR)/eslint src
+	$(NODE_BIN_DIR)/eslint src *.js
 
 
 .PHONY: deploy
