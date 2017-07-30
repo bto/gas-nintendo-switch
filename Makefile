@@ -11,20 +11,20 @@ auth:
 	$(NODE_BIN_DIR)/gapps auth client_secret.json
 
 
-.PHONY: clean
-clean:
-
-.PHONY: distclean
-distclean: clean
-	rm -rf $(NODE_DIR)
-
-
 .PHONY: check
 check: check-lint
 
 .PHONY: check-lint
 check-lint:
 	$(NODE_BIN_DIR)/eslint src *.js
+
+
+.PHONY: clean
+clean:
+
+.PHONY: distclean
+distclean: clean
+	rm -rf $(NODE_DIR)
 
 
 .PHONY: deploy
